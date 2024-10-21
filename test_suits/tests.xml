@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="User tribe API tests" parallel="false"><!--Tests -->
+	<test name="LoginTest"><!--Test 1 -->
+		<classes>
+			<class name="tests.LoginTest" />
+		</classes>
+	</test>
+	<test name="AddRemoveElementsPageTest"><!--Test 2 -->
+		<classes>
+			<class name="tests.AddRemoveElementsPageTest" />
+		</classes>
+	</test>
+</suite> 
