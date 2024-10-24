@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-18T13:52:29Z" name="Default suite" finished-at="2024-10-18T13:52:31Z" duration-ms="2155">
+    <groups>
+    </groups>
+    <test started-at="2024-10-18T13:52:29Z" name="Default test" finished-at="2024-10-18T13:52:31Z" duration-ms="2155">
+      <class name="tests.AddRemoveElementsPageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.AddRemoveElementsPageTest@934b6cb]" started-at="2024-10-18T16:52:21Z" name="initialize" finished-at="2024-10-18T16:52:29Z" duration-ms="8119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:tests.AddRemoveElementsPageTest@934b6cb]" started-at="2024-10-18T16:52:29Z" name="createContextAndPage" finished-at="2024-10-18T16:52:29Z" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="addRemoveElementsPageTest()[pri:0, instance:tests.AddRemoveElementsPageTest@934b6cb]" started-at="2024-10-18T16:52:29Z" name="addRemoveElementsPageTest" finished-at="2024-10-18T16:52:31Z" duration-ms="1846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRemoveElementsPageTest -->
+        <test-method is-config="true" signature="closeContext()[pri:0, instance:tests.AddRemoveElementsPageTest@934b6cb]" started-at="2024-10-18T16:52:31Z" name="closeContext" finished-at="2024-10-18T16:52:31Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContext -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.AddRemoveElementsPageTest@934b6cb]" started-at="2024-10-18T16:52:31Z" name="closeBrowser" finished-at="2024-10-18T16:52:32Z" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.AddRemoveElementsPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
