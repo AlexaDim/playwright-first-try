@@ -3,14 +3,17 @@ package pages;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 
-public class AddRemoveElementsPage {
-	Page page; 
+public class AddRemoveElementsPage extends BasePage{
+	
+	public static final String URL = BasePage.BASE_URL  + "/add_remove_elements/";
 	  
 	    public AddRemoveElementsPage(Page page) { 
-	        this.page = page; 
+	    	 super(page); 
 	    } 
+	    public void navigate() {
+	        super.navigate(URL);
+	    }
 	    
-	    public String url = "https://the-internet.herokuapp.com/add_remove_elements/";
 	    public String addElementButtonPath = "//*[@onclick='addElement()']";  
 	    public String deleteElementButtonPath = "//*[@onclick='deleteElement()']";  
 	    

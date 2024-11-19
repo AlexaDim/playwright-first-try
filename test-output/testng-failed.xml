@@ -3,15 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.AddRemoveElementsPageTest">
+      <class name="tests.KeyPressesTest">
         <methods>
           <include name="createContextAndPage"/>
           <include name="closeBrowser"/>
           <include name="closeContext"/>
-          <include name="addRemoveElementsPageTest"/>
+          <include name="openKeyPressPage"/>
           <include name="initialize"/>
+          <include name="testOtherPredefinedSequenceOfKeyPresses"/>
         </methods>
-      </class> <!-- tests.AddRemoveElementsPageTest -->
+      </class> <!-- tests.KeyPressesTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

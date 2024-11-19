@@ -6,9 +6,9 @@
 			<class name="tests.LoginTest" />
 		</classes>
 	</test>
-	<test name="AddRemoveElementsPageTest"><!--Test 2 -->
+	<test name="AddRemoveElementsTest"><!--Test 2 -->
 		<classes>
-			<class name="tests.AddRemoveElementsPageTest" />
+			<class name="tests.AddRemoveElementsTest" />
 		</classes>
 	</test>
 </suite> 

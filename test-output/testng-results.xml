@@ -1,33 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-18T13:52:29Z" name="Default suite" finished-at="2024-10-18T13:52:31Z" duration-ms="2155">
+  <suite started-at="2024-11-19T14:37:49Z" name="Default suite" finished-at="2024-11-19T14:37:52Z" duration-ms="3116">
     <groups>
     </groups>
-    <test started-at="2024-10-18T13:52:29Z" name="Default test" finished-at="2024-10-18T13:52:31Z" duration-ms="2155">
-      <class name="tests.AddRemoveElementsPageTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.AddRemoveElementsPageTest@934b6cb]" started-at="2024-10-18T16:52:21Z" name="initialize" finished-at="2024-10-18T16:52:29Z" duration-ms="8119" status="PASS">
+    <test started-at="2024-11-19T14:37:49Z" name="Default test" finished-at="2024-11-19T14:37:52Z" duration-ms="3116">
+      <class name="tests.KeyPressesTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.KeyPressesTest@3eb81efb]" started-at="2024-11-19T16:37:39Z" name="initialize" finished-at="2024-11-19T16:37:49Z" duration-ms="9817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:tests.AddRemoveElementsPageTest@934b6cb]" started-at="2024-10-18T16:52:29Z" name="createContextAndPage" finished-at="2024-10-18T16:52:29Z" duration-ms="257" status="PASS">
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:tests.KeyPressesTest@3eb81efb]" started-at="2024-11-19T16:37:49Z" name="createContextAndPage" finished-at="2024-11-19T16:37:49Z" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContextAndPage -->
-        <test-method signature="addRemoveElementsPageTest()[pri:0, instance:tests.AddRemoveElementsPageTest@934b6cb]" started-at="2024-10-18T16:52:29Z" name="addRemoveElementsPageTest" finished-at="2024-10-18T16:52:31Z" duration-ms="1846" status="PASS">
+        <test-method is-config="true" signature="openKeyPressPage()[pri:0, instance:tests.KeyPressesTest@3eb81efb]" started-at="2024-11-19T16:37:49Z" name="openKeyPressPage" finished-at="2024-11-19T16:37:51Z" duration-ms="1805" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addRemoveElementsPageTest -->
-        <test-method is-config="true" signature="closeContext()[pri:0, instance:tests.AddRemoveElementsPageTest@934b6cb]" started-at="2024-10-18T16:52:31Z" name="closeContext" finished-at="2024-10-18T16:52:31Z" duration-ms="40" status="PASS">
+        </test-method> <!-- openKeyPressPage -->
+        <test-method signature="testEnterKeyPress()[pri:0, instance:tests.KeyPressesTest@3eb81efb]" started-at="2024-11-19T16:37:51Z" name="testEnterKeyPress" finished-at="2024-11-19T16:37:51Z" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnterKeyPress -->
+        <test-method is-config="true" signature="openKeyPressPage()[pri:0, instance:tests.KeyPressesTest@3eb81efb]" started-at="2024-11-19T16:37:51Z" name="openKeyPressPage" finished-at="2024-11-19T16:37:51Z" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openKeyPressPage -->
+        <test-method signature="testOtherPredefinedSequenceOfKeyPresses(java.lang.String, java.lang.String)[pri:0, instance:tests.KeyPressesTest@3eb81efb]" started-at="2024-11-19T16:37:51Z" name="testOtherPredefinedSequenceOfKeyPresses" data-provider="pressKeysTestData" finished-at="2024-11-19T16:37:51Z" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PageUp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PAGE_UP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOtherPredefinedSequenceOfKeyPresses -->
+        <test-method is-config="true" signature="openKeyPressPage()[pri:0, instance:tests.KeyPressesTest@3eb81efb]" started-at="2024-11-19T16:37:51Z" name="openKeyPressPage" finished-at="2024-11-19T16:37:52Z" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openKeyPressPage -->
+        <test-method signature="testOtherPredefinedSequenceOfKeyPresses(java.lang.String, java.lang.String)[pri:0, instance:tests.KeyPressesTest@3eb81efb]" started-at="2024-11-19T16:37:52Z" name="testOtherPredefinedSequenceOfKeyPresses" data-provider="pressKeysTestData" finished-at="2024-11-19T16:37:52Z" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ArrowLeft]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LEFT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOtherPredefinedSequenceOfKeyPresses -->
+        <test-method is-config="true" signature="openKeyPressPage()[pri:0, instance:tests.KeyPressesTest@3eb81efb]" started-at="2024-11-19T16:37:52Z" name="openKeyPressPage" finished-at="2024-11-19T16:37:52Z" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openKeyPressPage -->
+        <test-method signature="testOtherPredefinedSequenceOfKeyPresses(java.lang.String, java.lang.String)[pri:0, instance:tests.KeyPressesTest@3eb81efb]" started-at="2024-11-19T16:37:52Z" name="testOtherPredefinedSequenceOfKeyPresses" data-provider="pressKeysTestData" finished-at="2024-11-19T16:37:52Z" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CapsLock]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CAPS_LOCK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOtherPredefinedSequenceOfKeyPresses -->
+        <test-method is-config="true" signature="openKeyPressPage()[pri:0, instance:tests.KeyPressesTest@3eb81efb]" started-at="2024-11-19T16:37:52Z" name="openKeyPressPage" finished-at="2024-11-19T16:37:52Z" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openKeyPressPage -->
+        <test-method signature="testPredefinedSequenceOfKeyPresses()[pri:0, instance:tests.KeyPressesTest@3eb81efb]" started-at="2024-11-19T16:37:52Z" name="testPredefinedSequenceOfKeyPresses" finished-at="2024-11-19T16:37:52Z" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPredefinedSequenceOfKeyPresses -->
+        <test-method is-config="true" signature="closeContext()[pri:0, instance:tests.KeyPressesTest@3eb81efb]" started-at="2024-11-19T16:37:52Z" name="closeContext" finished-at="2024-11-19T16:37:52Z" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeContext -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.AddRemoveElementsPageTest@934b6cb]" started-at="2024-10-18T16:52:31Z" name="closeBrowser" finished-at="2024-10-18T16:52:32Z" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.KeyPressesTest@3eb81efb]" started-at="2024-11-19T16:37:52Z" name="closeBrowser" finished-at="2024-11-19T16:37:52Z" duration-ms="155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- tests.AddRemoveElementsPageTest -->
+      </class> <!-- tests.KeyPressesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

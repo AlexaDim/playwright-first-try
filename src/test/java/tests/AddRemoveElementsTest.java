@@ -8,15 +8,15 @@ import com.microsoft.playwright.*;
 import pages.AddRemoveElementsPage;
 
 
-public class AddRemoveElementsPageTest extends BaseTest{
+public class AddRemoveElementsTest extends BaseTest{
 
     Boolean buttonsAreRemoved = false;
   
   @Test
-  public void addRemoveElementsPageTest() throws InterruptedException {	 
+  public void addRemoveElementsTest() throws InterruptedException {	 
 	  AddRemoveElementsPage addRemoveElementsPage = new AddRemoveElementsPage(page);
-	  
-      page.navigate(addRemoveElementsPage.url);
+
+	  addRemoveElementsPage.navigate();
 
       int nunberOfElement = 3;
       
